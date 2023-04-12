@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html, body {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w-[1920px] h-[1080px] relative bg-black">
+      <div class="w-[1920px] h-[1080px] absolute left-0 top-0">
+        <img
+          src="image-1.png.png"
+          class="w-[1920px] h-[1080px] absolute left-[5.98px] top-[5.69px] object-none"
+        />
+        <p class="absolute left-[920px] top-[17px] text-xl font-bold text-center text-white">
+          GHOST
+        </p>
+        <svg
+          width="8"
+          height="8"
+          viewBox="0 0 8 8"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-2 h-2 absolute left-0 top-0"
+          preserveAspectRatio="none"
+        >
+          <g clip-path="url(#clip0_3_369)">
+            <mask
+              id="mask0_3_369"
+              style="mask-type:luminance"
+              maskUnits="userSpaceOnUse"
+              x="0"
+              y="0"
+              width="8"
+              height="8"
+            >
+              <path d="M8 0H0V8H8V0Z" fill="white"></path>
+            </mask>
+            <g mask="url(#mask0_3_369)">
+              <path
+                d="M0 0.963556C0.164344 1.30428 0.412947 1.59741 0.722264 1.81519C1.03158 2.03296 1.39137 2.16817 1.76756 2.208C1.71614 2.64084 1.50788 3.03984 1.18217 3.32951C0.856463 3.61919 0.435887 3.77946 0 3.78V4.22222C0.435887 4.22277 0.856463 4.38303 1.18217 4.67271C1.50788 4.96238 1.71614 5.36138 1.76756 5.79422C1.3916 5.83384 1.03196 5.96871 0.722661 6.18608C0.413364 6.40345 0.164635 6.69614 0 7.03645V8H0.222222C0.222779 7.56416 0.383061 7.14364 0.672743 6.81801C0.962425 6.49237 1.36142 6.2842 1.79422 6.23289C1.83446 6.6089 1.96983 6.96845 2.18756 7.27763C2.40529 7.58681 2.69821 7.83542 3.03867 8H4.96578C5.30624 7.83542 5.59915 7.58681 5.81689 7.27763C6.03462 6.96845 6.16999 6.6089 6.21022 6.23289C6.64263 6.28471 7.04108 6.49309 7.33031 6.81868C7.61954 7.14426 7.77951 7.5645 7.78 8H8V7.03645C7.83566 6.69572 7.58705 6.40259 7.27774 6.18481C6.96842 5.96704 6.60863 5.83183 6.23244 5.792C6.28436 5.35956 6.49284 4.9611 6.8185 4.67188C7.14416 4.38266 7.56445 4.2227 8 4.22222V3.78222C7.56411 3.78168 7.14354 3.62141 6.81783 3.33174C6.49212 3.04206 6.28386 2.64307 6.23244 2.21022C6.60863 2.17039 6.96842 2.03518 7.27774 1.81741C7.58705 1.59963 7.83566 1.3065 8 0.965778V0H7.78C7.77944 0.435838 7.61916 0.856357 7.32948 1.18199C7.0398 1.50763 6.64081 1.7158 6.208 1.76711C6.16763 1.39097 6.03207 1.03132 5.81409 0.72213C5.59612 0.412938 5.30293 0.164405 4.96222 0H3.03778C2.69732 0.164579 2.4044 0.413188 2.18667 0.722368C1.96894 1.03155 1.83357 1.3911 1.79333 1.76711C1.36069 1.7156 0.961911 1.50734 0.672411 1.18173C0.38291 0.856109 0.222753 0.435702 0.222222 0H0V0.963556ZM4 7.78C3.56411 7.77946 3.14354 7.61919 2.81783 7.32951C2.49212 7.03984 2.28386 6.64084 2.23244 6.208C2.60863 6.16817 2.96842 6.03296 3.27774 5.81519C3.58705 5.59741 3.83566 5.30428 4 4.96356C4.16434 5.30428 4.41295 5.59741 4.72226 5.81519C5.03158 6.03296 5.39137 6.16817 5.76756 6.208C5.71614 6.64084 5.50788 7.03984 5.18217 7.32951C4.85646 7.61919 4.43589 7.77946 4 7.78ZM7.03645 4C6.69598 4.16458 6.40307 4.41319 6.18534 4.72237C5.9676 5.03155 5.83223 5.3911 5.792 5.76711C5.3568 5.71922 4.95458 5.51242 4.66241 5.18634C4.37024 4.86026 4.20868 4.43783 4.20868 4C4.20868 3.56217 4.37024 3.13974 4.66241 2.81366C4.95458 2.48758 5.3568 2.28078 5.792 2.23289C5.83223 2.6089 5.9676 2.96845 6.18534 3.27763C6.40307 3.58681 6.69598 3.83542 7.03645 4ZM4 0.222222C4.43589 0.222766 4.85646 0.383033 5.18217 0.672708C5.50788 0.962382 5.71614 1.36138 5.76756 1.79422C5.3916 1.83384 5.03196 1.96871 4.72266 2.18608C4.41336 2.40345 4.16463 2.69614 4 3.03644C3.83566 2.69572 3.58705 2.40259 3.27774 2.18481C2.96842 1.96704 2.60863 1.83183 2.23244 1.792C2.28436 1.35956 2.49284 0.961096 2.8185 0.671876C3.14416 0.382656 3.56445 0.222701 4 0.222222ZM2.208 2.23289C2.6432 2.28078 3.04542 2.48758 3.33759 2.81366C3.62976 3.13974 3.79132 3.56217 3.79132 4C3.79132 4.43783 3.62976 4.86026 3.33759 5.18634C3.04542 5.51242 2.6432 5.71922 2.208 5.76711C2.16777 5.3911 2.0324 5.03155 1.81466 4.72237C1.59693 4.41319 1.30402 4.16458 0.963556 4C1.30402 3.83542 1.59693 3.58681 1.81466 3.27763C2.0324 2.96845 2.16777 2.6089 2.208 2.23289Z"
+                fill="#090915"
+              ></path>
+            </g>
+          </g>
+          <defs>
+            <clipPath id="clip0_3_369"><rect width="8" height="8" fill="white"></rect></clipPath>
+          </defs>
+        </svg>
+        <div
+          class="w-[209.08px] h-[51.19px] absolute left-[865px] top-[436px] rounded-[100px] bg-[#29c4a9]"
+        >
+          <p class="absolute left-[27px] top-[11px] text-base font-medium text-center text-white">
+            <a class="et_pb_button et_pb_button_0 et_pb_bg_layout_light" href="https://twitter.com/" data-icon="">Join the Cemetery</a>
+          </p>
+        </div>
+        <div
+          class="w-[172.36px] h-[51.19px] absolute left-[1173px] top-[436px] rounded-[100px] bg-[#29c4a9]"
+        >
+          <p class="absolute left-7 top-[11px] text-base font-medium text-left text-white">
+            <a class="et_pb_button et_pb_button_1 et_pb_bg_layout_light" href="https://medium.com/" data-icon="">See Our Docs</a></div>
+          </p>
+        </div>
+        <div
+          class="w-[175.36px] h-[51.19px] absolute left-[591px] top-[436px] rounded-[100px] bg-[#29c4a9]"
+        >
+          <p class="absolute left-7 top-[11px] text-base font-medium text-left text-white">
+            <a class="et_pb_button et_pb_button_2 et_pb_bg_layout_light" href="https://telegram.org/" data-icon="">Join Telegram</a>
+          </p>
+        </div>
+        <img
+          src="untitled-design-2023-02-23t204408.277.png-2.png"
+          class="w-[110px] h-[100px] absolute left-[919px] top-[595px] object-none"
+        />
+        <div
+          class="w-[1201px] h-[227px] absolute left-[369px] top-[804px] overflow-hidden rounded-[30px] bg-[#29c4a9]/[0.67]"
+        >
+          <p class="w-[1040px] h-[193px] absolute left-[41px] top-5 text-xl text-center text-white">
+            <span class="w-[1040px] h-[193px] text-xl text-center text-white"
+              >The community token zkGhost on the zkSync Network aims to bring together a community
+              of people who may feel alone. The theme of zkGhost revolves around ghosts, which are
+              often perceived as scary but also fascinating to many people. </span
+            ><br /><br /><span class="w-[1040px] h-[193px] text-xl text-center text-white"
+              >zkGhost aims to be another option aside from centralized stablecoins for investors to
+              store their wealth and gain exposure to Ethereum while awarding those who participate
+              in the zkSync ecosystem. As always, never invest more than you are comfortable
+              losing.</span
+            ><br />
+          </p>
+        </div>
+        <img
+          src="untitled-design-2023-02-23t204408.277.png.png"
+          class="w-[180px] h-[90px] absolute left-[1125px] top-[595px] rounded-[104px] object-none"
+        /><img
+          src="untitled-design-2023-02-24t075021.279.png.png"
+          class="w-[228px] h-[134px] absolute left-[637px] top-[578px] object-none"
+        />
+      </div>
+    </div>
+  </body>
+</html>
